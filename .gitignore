@@ -60,3 +60,9 @@ AMASS/*
 *.sh
 *.txt
 
+# Build / binary artifacts
+*.so
+*.a
+*.o
+# Isaac Gym local binary bindings (machine-specific)
+isaacgym/python/isaacgym/_bindings/
