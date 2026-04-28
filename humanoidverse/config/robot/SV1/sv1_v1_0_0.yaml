@@ -28,6 +28,7 @@ robot:
   left_foot_name: "MFL2_WHEEL"
   right_foot_name: "MFR2_WHEEL"
   foot_name: "WHEEL"
+  knee_name: "HIPR"
 
   has_torso: True
   torso_name: "MWB3_WAISTP"
@@ -213,7 +214,7 @@ robot:
 
   motion:
     # 这里填写重定向后的 ASAP 标准 motion 文件（含 root_trans_offset/pose_aa/fps）。
-    motion_file: "humanoidverse/data/motions/SR1_V1.0.0/sr1_v1_test.pkl"
+    motion_file: "humanoidverse/data/motions/sv1_v1_0_0/TairanTestbed/singles/0-motions_raw_tairantestbed_smpl_video_CR7_level1_filter_amass.pkl"
 
     asset:
       assetRoot: "humanoidverse/data/robots/SR1_V1_0_0/"
@@ -266,8 +267,11 @@ robot:
       'MFL1_HIPR', 'MFL2_WHEEL', 'MFR1_HIPR', 'MFR2_WHEEL', 'MRL1_HIPR', 'MRL2_WHEEL', 'MRR1_HIPR', 'MRR2_WHEEL'
     ]
 
-    right_foot_name: 'MFR2_WHEEL'
-    left_foot_name: 'MFL2_WHEEL'
+    left_foot_name: "MFL2_WHEEL"
+    right_foot_name: "MFR2_WHEEL"
+    foot_name: "WHEEL"
+    knee_name: "HIPR"
+
 
     nums_extend_bodies: 0
     extend_config: []
