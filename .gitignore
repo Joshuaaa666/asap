@@ -48,6 +48,7 @@ humanoidverse/data/motions
 
 sim2real/models/*.onnx
 sim2real/models/dec_loco/*.onnx
+isaac-gym-preview-4/
 
 humanoidverse/data/smpl
 data/shape
