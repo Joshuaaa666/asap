@@ -273,8 +273,20 @@ robot:
     knee_name: "HIPR"
 
 
-    nums_extend_bodies: 0
-    extend_config: []
+    nums_extend_bodies: 3
+    extend_config:
+      - joint_name: "left_hand_link"
+        parent_name: "MAL6_WRP"
+        pos: [0.0, 0.0, 0.0]
+        rot: [1.0, 0.0, 0.0, 0.0] # w x y z
+      - joint_name: "right_hand_link"
+        parent_name: "MAR6_WRP"
+        pos: [0.0, 0.0, 0.0]
+        rot: [1.0, 0.0, 0.0, 0.0] # w x y z
+      - joint_name: "head_link"
+        parent_name: "MHD2_HEADP"
+        pos: [0.0, 0.0, 0.0]
+        rot: [1.0, 0.0, 0.0, 0.0] # w x y z
 
     # 这里是把你的 GMR 映射关系转换为 ASAP 所需 SMPL 关节命名后的结果。
     joint_matches:
